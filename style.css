@@ -32,6 +32,15 @@ body{
     height: 300px;
 }
 
+.card-complete .card-front #arrow{
+    position: absolute;
+    top: 90%;
+    left: 90%;
+    color: #1c1c1e;
+    height: 25px ;
+    width: 25px ;
+}
+
 .card-complete:hover .card-front{
     transform: rotateX(-180deg);
 }
