@@ -22,7 +22,8 @@ body{
     width: 100%;
     height: 100%;
     background: #5ac8fa;
-    background-image: linear-gradient(to bottom, #5ac8fa , #193947);
+    background-image: linear-gradient(180deg, #5ac8fa 0%, #153341 100%);
+    backface-visibility: hidden;
     backface-visibility: hidden;
     transform: rotateX(0deg);
     transition: 0.5s;
